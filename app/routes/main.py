@@ -4,5 +4,4 @@ main = Blueprint('main', __name__)
 
 @main.route('/dashboard')
 def dashboard():
-    # Logic to display dashboard
     return render_template('dashboard.html')
